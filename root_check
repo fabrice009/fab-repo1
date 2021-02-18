@@ -13,5 +13,7 @@ fi
 if [ `nproc` eq 1 ]
 then
 	echo "this server is verry small"
-	exit 2
+else
+echo "server processor is ok"
+exit 1
 fi
